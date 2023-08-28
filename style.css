@@ -8,3 +8,29 @@ label {
 input {
   margin: 0.4rem;
 }
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
+.formulario{
+    align-items: center;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 60%;
+    margin-left: 50%;
+}  
+.formulario h1{
+    text-align: center;
+    padding:  0 0 20px 0;
+    border-bottom: 1px solid; 
+    text-decoration:color(srgb red green blue) ;
+}
+

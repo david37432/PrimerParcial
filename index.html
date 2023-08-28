@@ -29,24 +29,69 @@
                             <label>Confirmar contraseña</label>
                         </div>
                         <div class="genero">
-                            <fieldset>
-                                <legend>Seleccione su tipo de genero:</legend>
+                            <h1>Escoga su genero</h1>
+                            <form>
+                                <input type="radio" id="masculino" name="genero" value="masculino">
+                                <label for="masculino">Masculino</label><br>
+                        
+                                <input type="radio" id="femenino" name="genero" value="femenino">
+                                <label for="femenino">Femenino</label><br>
+                        
+                                <input type="radio" id="no_definido" name="genero" value="no_definido">
+                                <label for="no_definido">No Definido</label><br>
+                            </form>
                               
-                                <div>
-                                  <input type="radio" id="Masculino" name="Masculino" value="Masculino" checked />
-                                  <label for="Masculino">Huey</label>
-                                </div>
-                              
-                                <div>
-                                  <input type="radio" id="dewey" name="drone" value="dewey" />
-                                  <label for="dewey">Dewey</label>
-                                </div>
-                              
-                                <div>
-                                  <input type="radio" id="louie" name="drone" value="louie" />
-                                  <label for="louie">Louie</label>
-                                </div>
                         </div>
+                        <div class="Paises">
+                            <h1>Escoga su país de procedencia</h1>
+                            <form>
+                                <label for="pais">País:</label>
+                                <select id="pais" name="pais">
+                                    <option value="usa">Estados Unidos</option>
+                                    <option value="canada">Canadá</option>
+                                    <option value="mexico">México</option>
+                                    <option value="espana">España</option>
+                                    <option value="argentina">Argentina</option>
+                                </select>
+                            </form>
+
+                        </div>
+                        <div class="Intereses">
+                            <h1>Seleccione sus intereses</h1>
+                            <form>
+                                <input type="checkbox" id="Viajar" name="opcion" value="Viajar">
+                                <label for="Viajar">Viajar</label><br>
+
+                                <input type="checkbox" id="opcion2" name="opcion" value="opcion2">
+                                <label for="opcion2">Comer</label><br>
+
+                                <input type="checkbox" id="opcion3" name="opcion" value="opcion3">
+                                <label for="opcion3">Dormir</label><br>
+
+                                <input type="checkbox" id="opcion3" name="opcion" value="opcion3">
+                                <label for="opcion3">Hacer deporte</label><br>
+
+                                <input type="checkbox" id="opcion3" name="opcion" value="opcion3">
+                                <label for="opcion3">Tecnología</label><br>
+
+                                <input type="checkbox" id="opcion3" name="opcion" value="opcion3">
+                                <label for="opcion3">Otro</label><br>
+
+                            </form>
+                        </div>
+
+                        <div class="Comentarios">
+
+                        </div>
+                        <div class="CargarArchivo">
+                            <label for="avatar">Subir Archivo:</label>
+                            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+
+                        </div>
+                        <div class="enviar">
+                            <input type="submit" />
+                        </div>
+
                     </form>
 
                 </div>
