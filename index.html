@@ -310,11 +310,20 @@
                         </div>
 
                         <div class="Comentarios">
+                            <h1>Deja tu Comentario</h1>
+                            <form>
+                                <label for="comentario">Comentario:</label><br>
+                                <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br>
+                            </form>
 
                         </div>
                         <div class="CargarArchivo">
                             <label for="avatar">Subir Archivo:</label>
                             <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+                            <form action="procesar_archivo.php" method="post" enctype="multipart/form-data">
+                                <label for="archivo">Selecciona un archivo Word:</label><br>
+                                <input type="file" id="archivo" name="archivo"><br>                        
+                            </form>
 
                         </div>
                         <div class="enviar">
